@@ -97,6 +97,14 @@
     gap: 2em;
 }
 
+.img-box{
+    transition: 150ms ease-out;
+}
+.img-box:hover{
+    scale: 1.1;
+}
+
+
 /* APISGANTENG */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
@@ -125,7 +133,6 @@ ul {
 .footer {
     padding:70px 0 ;
     background-color: black  ;
-    
 }
 
 .footer-co1 {
