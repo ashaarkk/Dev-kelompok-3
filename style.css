@@ -20,6 +20,12 @@
     z-index: 100;
 
 }
+
+.img-box img {
+    margin-top: 6rem;
+    width: 300px;
+}
+
 .logo{
     font-size: 25px;
     color: white;
@@ -35,7 +41,7 @@
 }
 .navbar a{
     font-size: 18px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
@@ -50,7 +56,7 @@
 .contact{
     padding: 10px 28px;
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 18px;
@@ -193,7 +199,102 @@ ul {
     }
 }
 @media(max-width: 574px){
-    .footer-co1 {
+    .footer-co1{
         width: 100%;
     }
 }
+
+@media(max-width: 767px){
+    .home {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .home{
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .header {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .header{
+        width: 100%;
+    }
+}
+
+.logo1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo1:hover{
+    color: aqua;
+    text-shadow: 0 0 25px aqua,
+                0 0 50px aqua;
+    transform: scale(1.1);
+}
+
+.logo2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo2:hover{
+    color: aqua;
+    text-shadow: 0 0 25px aqua,
+                0 0 50px aqua;
+    transform: scale(1.1);
+}
+
+.logo3 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo3:hover{
+    color: aqua;
+    text-shadow: 0 0 25px aqua,
+                0 0 50px aqua;
+    transform: scale(1.1);
+}
+
+.logo4 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo4:hover{
+    color: aqua;
+    text-shadow: 0 0 25px aqua,
+                0 0 50px aqua;
+    transform: scale(1.1);
+}
+
+.logo5 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo5:hover{
+    color: aqua;
+    text-shadow: 0 0 25px aqua,
+                0 0 50px aqua;
+    transform: scale(1.1);
+}
+
