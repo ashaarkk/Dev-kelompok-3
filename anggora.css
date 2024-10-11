@@ -18,36 +18,28 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    flex-wrap: wrap;
- 
-}
 
-.img-box img {
-    margin-top: 6rem;
-    width: 300px;
-    border-radius: 50%;
-    border: 10px solid white;
 }
-
 .logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
     transition: 0.3s ease;
-    flex-wrap: wrap;
 
 }
-
 .logo:hover{
     color: aqua;
-    box-shadow: aqua;
+    text-shadow: 0 0 25px aqua,
+                0 0 50px aqua;
     transform: scale(1.1);
 }
 .navbar a{
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
     transition: 0.3 ease;
-     flex-wrap: wrap;
 }
 .navbar a:hover,
 .navbar a:active{
@@ -58,14 +50,13 @@
 .contact{
     padding: 10px 28px;
     background-color: white;
-    color: rgb(0, 0, 0);
+    color: black;
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3 ease;
-    flex-wrap: wrap;
 }
 .contact:hover{
     background-color: aqua;
@@ -106,8 +97,11 @@
     gap: 2em;
 }
 
-.img-box {
-transition: 150ms ease-out;
+.img-box{
+    transition: 150ms ease-out;
+}
+.img-box:hover{
+    scale: 1.1;
 }
 
 
@@ -139,7 +133,6 @@ ul {
 .footer {
     padding:70px 0 ;
     background-color: black  ;
-    
 }
 
 .footer-co1 {
@@ -207,23 +200,11 @@ ul {
     }
 }
 @media(max-width: 574px){
-    .footer-co1{
+    .footer-co1 {
         width: 100%;
     }
 }
 
-
-@media(max-width: 767px){
-    .header{
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-@media(max-width: 767px){
-    .header{
-        width: 100%;
-    }
-}
 .logo1 {
     font-size: 25px;
     color: white;
@@ -293,4 +274,3 @@ ul {
                 0 0 50px aqua;
     transform: scale(1.1);
 }
-
